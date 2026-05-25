@@ -1,0 +1,225 @@
+{
+  "sr": {
+    "opste": {
+      "naslovSajta": "Istaknuti ratnici kroz istoriju",
+      "pocetna": "Početna",
+      "oProjektu": "O projektu",
+      "ratnici": "Ratnici",
+      "kontakt": "Kontakt",
+      "podnozje": "&copy; 2026 Istaknuti ratnici kroz istoriju | Web dizajn projekat"
+    },
+
+    "pocetna": {
+      "metaOpis": "Istaknuti ratnici kroz istoriju i njihov uticaj na vojnu strategiju",
+      "metaKljucneReci": "ratnici, istorija, strategija",
+      "videoNatpis": "Sun Tzu — Umeće ratovanja",
+      "naslovUvod": "Poznati ratnici kroz istoriju",
+
+      "simoOpis": "Finski snajperista iz Zimskog rata poznat kao \"Bela smrt\".",
+      "leonidasOpis": "Kralj Sparte koji je predvodio 300 Spartanaca u bici kod Termopila.",
+      "tlahuicoleOpis": "Legendarni astečki ratnik poznat po hrabrosti i borilačkim veštinama.",
+      "musashiOpis": "Najpoznatiji japanski samuraj i autor knjige o strategiji.",
+      "milosOpis": "Srpski vitez poznat po hrabrosti u Kosovskoj bici 1389. godine.",
+      "atilaOpis": "Vođa Huna poznat kao \"Bič Božiji\", jedan od najstrašnijih ratnika Evrope koji je napadao Rimsko carstvo u 5. veku."
+    },
+
+    "kontakt": {
+      "naslovStranice": "Kontakt | Istaknuti ratnici kroz istoriju",
+      "metaOpis": "Kontakt stranica sajta Istaknuti ratnici kroz istoriju.",
+      "metaKljucneReci": "kontakt, ratnici, istorija",
+
+      "naslov": "Kontaktirajte nas",
+      "podnaslov": "Za pitanja, predloge i dodatne informacije o projektu „Istaknuti ratnici kroz istoriju“.",
+      "naslovForme": "Pošaljite poruku",
+
+      "imeLabel": "Ime i prezime",
+      "imePlaceholder": "Unesite ime i prezime",
+
+      "emailLabel": "Email adresa",
+      "emailPlaceholder": "Unesite email adresu",
+
+      "porukaLabel": "Poruka",
+      "porukaPlaceholder": "Napišite poruku...",
+
+      "dugme": "Pošalji poruku",
+
+      "lokacijaNaslov": "Naša lokacija",
+      "lokacijaTekst": "Možete nas pronaći u Beogradu. Lokacija je prikazana na mapi ispod.",
+
+      "podnozje": "&copy; 2026 Istaknuti ratnici kroz istoriju. Sva prava zadržana."
+    },
+
+    "ratnici": {
+      "naslovStranice": "Ratnici | Istaknuti ratnici kroz istoriju",
+      "metaOpis": "Galerija i priče o istaknutim ratnicima kroz istoriju.",
+      "metaKljucneReci": "ratnici, istorija",
+
+      "naslovUvoda": "Galerija i priče o ratnicima",
+      "tekstUvoda": "Na ovoj stranici predstavljeni su neki od najpoznatijih ratnika kroz istoriju. Svaki od njih ostavio je dubok trag u svom vremenu kroz hrabrost, vojnu veštinu, strategiju i legendu koja se prenosi vekovima.",
+      "oznakaZanimljivost": "Zanimljivost:",
+
+      "simoIme": "Simo Häyhä",
+      "simoPorekloPuno": "<strong>Poreklo:</strong> Finska",
+      "simoPeriodPuno": "<strong>Period:</strong> 20. vek",
+      "simoPoznatPoPuno": "<strong>Poznat po:</strong> Zimskom ratu",
+      "simoOpis1": "Simo Häyhä bio je finski snajperista poznat pod nadimkom „Bela smrt”. Tokom Zimskog rata između Finske i Sovjetskog Saveza stekao je reputaciju jednog od najopasnijih snajperista u istoriji.",
+      "simoOpis2": "Njegova preciznost, strpljenje i izdržljivost u ekstremnim zimskim uslovima učinili su ga legendom modernog ratovanja. Koristio je prirodno zaklanjanje, sneg i teren kako bi ostao neprimetan protivniku.",
+      "simoZanimljivost": "Borio se na temperaturama koje su padale i ispod -30°C.",
+
+      "leonidasIme": "Leonidas",
+      "leonidasPorekloPuno": "<strong>Poreklo:</strong> Sparta",
+      "leonidasPeriodPuno": "<strong>Period:</strong> Antika",
+      "leonidasPoznatPoPuno": "<strong>Poznat po:</strong> Termopilska bitka",
+      "leonidasOpis1": "Leonidas I bio je kralj Sparte i jedan od najpoznatijih vojskovođa antičkog sveta. Upamćen je po tome što je predvodio malu grčku vojsku protiv daleko brojnije persijske armije u bici kod Termopila.",
+      "leonidasOpis2": "Njegova odluka da ostane i bori se do kraja postala je simbol hrabrosti, discipline i žrtve za slobodu. Leonidas je kroz vekove ostao primer ratničkog duha.",
+      "leonidasZanimljivost": "Priča o 300 Spartanaca postala je jedan od najpoznatijih motiva vojne istorije.",
+
+      "tlahuicoleIme": "Tlahuicole",
+      "tlahuicolePorekloPuno": "<strong>Poreklo:</strong> Tlaskala",
+      "tlahuicolePeriodPuno": "<strong>Period:</strong> Predkolumbovska Amerika",
+      "tlahuicolePoznatPoPuno": "<strong>Poznat po:</strong> Legendarnoj hrabrosti",
+      "tlahuicoleOpis1": "Tlahuicole je bio legendarni ratnik iz srednje Amerike, poznat po svojoj snazi, hrabrosti i borilačkom umeću. U narodnim pričama i istorijskim zapisima ostao je upamćen kao simbol časti i odlučnosti.",
+      "tlahuicoleOpis2": "Njegovo ime se povezuje sa izuzetnim podvizima u borbi i otporom protiv neprijatelja, zbog čega je postao važan deo istorijske i kulturne tradicije regiona.",
+      "tlahuicoleZanimljivost": "Smatra se jednom od najpoznatijih ratničkih figura pre dolaska Evropljana.",
+
+      "musashiIme": "Miyamoto Musashi",
+      "musashiPorekloPuno": "<strong>Poreklo:</strong> Japan",
+      "musashiPeriodPuno": "<strong>Period:</strong> 16–17. vek",
+      "musashiPoznatPoPuno": "<strong>Poznat po:</strong> Mačevanju i strategiji",
+      "musashiOpis1": "Miyamoto Musashi bio je japanski samuraj, mačevalac, strateg i pisac. Poznat je po nepobedivosti u duelima i po delu „Knjiga pet prstenova”, koje se i danas proučava kao važan tekst o strategiji i disciplini.",
+      "musashiOpis2": "Njegov stil borbe i razmišljanja nadilazio je samu veštinu mačevanja, pa je Musashi ostao poznat i kao filozof ratničkog života.",
+      "musashiZanimljivost": "Smatra se jednim od najvećih samuraja u istoriji Japana.",
+
+      "milosIme": "Miloš Obilić",
+      "milosPorekloPuno": "<strong>Poreklo:</strong> Srbija",
+      "milosPeriodPuno": "<strong>Period:</strong> Srednji vek",
+      "milosPoznatPoPuno": "<strong>Poznat po:</strong> Kosovskoj bici",
+      "milosOpis1": "Miloš Obilić zauzima posebno mesto u srpskoj istoriji i epskoj tradiciji. Najpoznatiji je po predanju da je uoči ili tokom Kosovske bitke 1389. godine uspeo da se probije do osmanskog sultana Murata i usmrti ga.",
+      "milosOpis2": "Bez obzira na različita tumačenja istorijskih izvora, Miloš Obilić ostao je simbol hrabrosti, lojalnosti i spremnosti na žrtvu za otadžbinu.",
+      "milosZanimljivost": "Njegov lik zauzima važno mesto u srpskoj epici i narodnom pamćenju.",
+
+      "atilaIme": "Atila",
+      "atilaPorekloPuno": "<strong>Poreklo:</strong> Huni",
+      "atilaPeriodPuno": "<strong>Period:</strong> 5. vek",
+      "atilaPoznatPoPuno": "<strong>Poznat po:</strong> Pohodima na Rim",
+      "atilaOpis1": "Atila, poznat i kao „Bič Božiji”, bio je vođa Huna i jedan od najstrašnijih i najuticajnijih vojskovođa svog vremena. Njegovi pohodi uzdrmali su Istočno i Zapadno rimsko carstvo.",
+      "atilaOpis2": "Iako je ostao upamćen po svojoj surovosti i moći, Atila je bio i vešt politički vođa koji je uspeo da ujedini različita plemena i stvori snažnu vojnu silu.",
+      "atilaZanimljivost": "Njegovo ime vekovima je bilo sinonim za strah i vojnu silu u Evropi.",
+
+      "naslovVideoSekcije": "Video sadržaj o ratnicima",
+      "tekstVideoSekcije": "U nastavku možete pogledati video materijale o najpoznatijim ratnicima kroz istoriju, koji dodatno prikazuju njihove podvige, borbe i značaj u istoriji."
+    }
+  },
+
+  "en": {
+    "opste": {
+      "naslovSajta": "Famous Warriors Through History",
+      "pocetna": "Home",
+      "oProjektu": "About the Project",
+      "ratnici": "Warriors",
+      "kontakt": "Contact",
+      "podnozje": "&copy; 2026 Famous Warriors Through History | Web Design Project"
+    },
+
+    "pocetna": {
+      "metaOpis": "Famous warriors through history and their impact on military strategy",
+      "metaKljucneReci": "warriors, history, strategy",
+      "videoNatpis": "Sun Tzu — The Art of War",
+      "naslovUvod": "Famous Warriors Through History",
+
+      "simoOpis": "A Finnish sniper known as the White Death.",
+      "leonidasOpis": "The King of Sparta who led 300 Spartans at the Battle of Thermopylae.",
+      "tlahuicoleOpis": "A legendary Aztec warrior known for courage and combat skills.",
+      "musashiOpis": "The most famous Japanese samurai and author of a strategy book.",
+      "milosOpis": "A Serbian knight known for his bravery in the Battle of Kosovo in 1389.",
+      "atilaOpis": "Leader of the Huns known as the Scourge of God, one of Europe's most feared warriors who attacked the Roman Empire in the 5th century."
+    },
+
+    "kontakt": {
+      "naslovStranice": "Contact | Famous Warriors Through History",
+      "metaOpis": "Contact page of the Famous Warriors Through History website.",
+      "metaKljucneReci": "contact, warriors, history",
+
+      "naslov": "Contact Us",
+      "podnaslov": "For questions, suggestions, and additional information about the project “Famous Warriors Through History”.",
+      "naslovForme": "Send a Message",
+
+      "imeLabel": "Full Name",
+      "imePlaceholder": "Enter your full name",
+
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "Enter your email address",
+
+      "porukaLabel": "Message",
+      "porukaPlaceholder": "Write your message...",
+
+      "dugme": "Send Message",
+
+      "lokacijaNaslov": "Our Location",
+      "lokacijaTekst": "You can find us in Belgrade. The location is shown on the map below.",
+
+      "podnozje": "&copy; 2026 Famous Warriors Through History. All rights reserved."
+    },
+
+    "ratnici": {
+      "naslovStranice": "Warriors | Famous Warriors Through History",
+      "metaOpis": "Gallery and stories about famous warriors through history.",
+      "metaKljucneReci": "warriors, history",
+
+      "naslovUvoda": "Gallery and Stories of Warriors",
+      "tekstUvoda": "This page presents some of the most famous warriors in history. Each of them left a deep mark on their time through bravery, military skill, strategy, and legends that have been passed down for centuries.",
+      "oznakaZanimljivost": "Fun Fact:",
+
+      "simoIme": "Simo Häyhä",
+      "simoPorekloPuno": "<strong>Origin:</strong> Finland",
+      "simoPeriodPuno": "<strong>Period:</strong> 20th century",
+      "simoPoznatPoPuno": "<strong>Known for:</strong> The Winter War",
+      "simoOpis1": "Simo Häyhä was a Finnish sniper known by the nickname “White Death”. During the Winter War between Finland and the Soviet Union, he earned the reputation of being one of the most dangerous snipers in history.",
+      "simoOpis2": "His precision, patience, and endurance in extreme winter conditions made him a legend of modern warfare. He used natural cover, snow, and terrain to remain unnoticed by the enemy.",
+      "simoZanimljivost": "He fought in temperatures that dropped below -30°C.",
+
+      "leonidasIme": "Leonidas",
+      "leonidasPorekloPuno": "<strong>Origin:</strong> Sparta",
+      "leonidasPeriodPuno": "<strong>Period:</strong> Antiquity",
+      "leonidasPoznatPoPuno": "<strong>Known for:</strong> The Battle of Thermopylae",
+      "leonidasOpis1": "Leonidas I was the king of Sparta and one of the most famous military leaders of the ancient world. He is remembered for leading a small Greek army against a far larger Persian force at the Battle of Thermopylae.",
+      "leonidasOpis2": "His decision to stay and fight to the end became a symbol of courage, discipline, and sacrifice for freedom. Through the centuries, Leonidas remained a model of warrior spirit.",
+      "leonidasZanimljivost": "The story of the 300 Spartans became one of the most famous themes in military history.",
+
+      "tlahuicoleIme": "Tlahuicole",
+      "tlahuicolePorekloPuno": "<strong>Origin:</strong> Tlaxcala",
+      "tlahuicolePeriodPuno": "<strong>Period:</strong> Pre-Columbian America",
+      "tlahuicolePoznatPoPuno": "<strong>Known for:</strong> Legendary bravery",
+      "tlahuicoleOpis1": "Tlahuicole was a legendary warrior from Central America, known for his strength, courage, and fighting skill. In folk stories and historical records, he remained remembered as a symbol of honor and determination.",
+      "tlahuicoleOpis2": "His name is associated with extraordinary feats in battle and resistance against enemies, which made him an important part of the region’s historical and cultural tradition.",
+      "tlahuicoleZanimljivost": "He is considered one of the most famous warrior figures before the arrival of Europeans.",
+
+      "musashiIme": "Miyamoto Musashi",
+      "musashiPorekloPuno": "<strong>Origin:</strong> Japan",
+      "musashiPeriodPuno": "<strong>Period:</strong> 16th–17th century",
+      "musashiPoznatPoPuno": "<strong>Known for:</strong> Swordsmanship and strategy",
+      "musashiOpis1": "Miyamoto Musashi was a Japanese samurai, swordsman, strategist, and writer. He is known for being undefeated in duels and for the work “The Book of Five Rings”, which is still studied today as an important text on strategy and discipline.",
+      "musashiOpis2": "His style of combat and way of thinking went beyond the skill of sword fighting itself, so Musashi remained known as a philosopher of the warrior life.",
+      "musashiZanimljivost": "He is considered one of the greatest samurai in Japanese history.",
+
+      "milosIme": "Miloš Obilić",
+      "milosPorekloPuno": "<strong>Origin:</strong> Serbia",
+      "milosPeriodPuno": "<strong>Period:</strong> Middle Ages",
+      "milosPoznatPoPuno": "<strong>Known for:</strong> The Battle of Kosovo",
+      "milosOpis1": "Miloš Obilić holds a special place in Serbian history and epic tradition. He is best known for the legend that, before or during the Battle of Kosovo in 1389, he managed to break through to the Ottoman Sultan Murad and kill him.",
+      "milosOpis2": "Regardless of different interpretations of historical sources, Miloš Obilić remained a symbol of courage, loyalty, and readiness to sacrifice for his homeland.",
+      "milosZanimljivost": "His character holds an important place in Serbian epic poetry and collective memory.",
+
+      "atilaIme": "Attila",
+      "atilaPorekloPuno": "<strong>Origin:</strong> Huns",
+      "atilaPeriodPuno": "<strong>Period:</strong> 5th century",
+      "atilaPoznatPoPuno": "<strong>Known for:</strong> Campaigns against Rome",
+      "atilaOpis1": "Attila, also known as the “Scourge of God”, was the leader of the Huns and one of the most feared and influential military leaders of his time. His campaigns shook the Eastern and Western Roman Empires.",
+      "atilaOpis2": "Although he was remembered for his brutality and power, Attila was also a skilled political leader who managed to unite different tribes and create a strong military force.",
+      "atilaZanimljivost": "For centuries, his name was synonymous with fear and military power in Europe.",
+
+      "naslovVideoSekcije": "Video Content About Warriors",
+      "tekstVideoSekcije": "Below you can watch video materials about the most famous warriors in history, further showing their feats, battles, and importance in history."
+    }
+  }
+}

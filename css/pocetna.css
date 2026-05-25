@@ -1,0 +1,96 @@
+.kartice {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.kartica {
+  background: linear-gradient(#fffdf5, #f3e8c8);
+  padding: 25px;
+  border-radius: 10px;
+  border: 2px solid #c8b58a;
+  text-align: center;
+  transition: 0.3s;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+  position: relative;
+  overflow: hidden;
+  font-weight: 700;
+}
+
+.kartica:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.45);
+  border-color: #8b6f3d;
+}
+
+.kartica h3 {
+  margin-top: 0;
+}
+
+.kartica img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  object-position: top;
+}
+
+.kartica.milos img {
+  object-position: center;
+}
+
+.kartica.leonidas img {
+  object-position: center 20%;
+}
+
+.video-uvod {
+  width: 100%;
+  height: 65vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.video-uvod video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 40%;
+  display: block;
+}
+
+.video-natpis {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: #d4af37;
+  font-size: 1.15em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 8px 14px;
+  border-radius: 6px;
+  backdrop-filter: blur(4px);
+}
+
+@media (max-width: 992px) {
+  .kartice {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .kartice {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .kartica {
+    width: 100%;
+  }
+
+  .video-uvod {
+    height: 40vh;
+  }
+}

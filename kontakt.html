@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title data-title="kontakt.naslovStranice">Kontakt | Istaknuti ratnici kroz istoriju</title>
+
+  <link rel="stylesheet" href="css/stil.css">
+  <link rel="stylesheet" href="css/kontakt.css">
+
+  <meta name="description" content="Kontakt stranica sajta Istaknuti ratnici kroz istoriju." data-meta-content="kontakt.metaOpis">
+  <meta name="keywords" content="kontakt, ratnici, istorija" data-meta-content="kontakt.metaKljucneReci">
+</head>
+
+<body class="stranica-kontakt">
+
+  <header>
+    <div class="logo-omot">
+      <img src="slike/logo.png" alt="Logo ratnici" class="logo">
+      <h1 data-lang="opste.naslovSajta">Istaknuti ratnici kroz istoriju</h1>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="pocetna.html" data-lang="opste.pocetna">Početna</a></li>
+        <li><a href="onama.html" data-lang="opste.oProjektu">O projektu</a></li>
+
+      <li class="padajuci-meni">
+  <a href="ratnici.html" data-lang="opste.ratnici">Ratnici</a>
+
+  <div class="mega-meni">
+    <a href="ratnici.html#simo" data-lang="ratnici.simoIme">Simo Häyhä</a>
+    <a href="ratnici.html#leonidas" data-lang="ratnici.leonidasIme">Leonidas</a>
+    <a href="ratnici.html#tlahuicole" data-lang="ratnici.tlahuicoleIme">Tlahuicole</a>
+    <a href="ratnici.html#musashi" data-lang="ratnici.musashiIme">Miyamoto Musashi</a>
+    <a href="ratnici.html#milos" data-lang="ratnici.milosIme">Miloš Obilić</a>
+    <a href="ratnici.html#atila" data-lang="ratnici.atilaIme">Atila</a>
+  </div>
+
+  <ul class="mobilni-podmeni">
+    <li><a href="ratnici.html#simo" data-lang="ratnici.simoIme">Simo Häyhä</a></li>
+    <li><a href="ratnici.html#leonidas" data-lang="ratnici.leonidasIme">Leonidas</a></li>
+    <li><a href="ratnici.html#tlahuicole" data-lang="ratnici.tlahuicoleIme">Tlahuicole</a></li>
+    <li><a href="ratnici.html#musashi" data-lang="ratnici.musashiIme">Miyamoto Musashi</a></li>
+    <li><a href="ratnici.html#milos" data-lang="ratnici.milosIme">Miloš Obilić</a></li>
+    <li><a href="ratnici.html#atila" data-lang="ratnici.atilaIme">Atila</a></li>
+  </ul>
+</li>
+
+        <li><a href="kontakt.html" class="active" data-lang="opste.kontakt">Kontakt</a></li>
+      </ul>
+    </nav>
+
+    <button id="tema-dugme" class="tema-dugme" aria-label="Promeni temu">🌙</button>
+    <button id="jezik-dugme" class="jezik-dugme">EN</button>
+    <button id="povecaj-font" class="font-dugme">A+</button>
+    <button id="smanji-font" class="font-dugme">A-</button>
+  </header>
+
+  <main class="sekcija-kontakt">
+    <section class="omot-kontakt">
+      <div class="naslov-kontakt">
+        <h2 data-lang="kontakt.naslov">Kontaktirajte nas</h2>
+        <p data-lang="kontakt.podnaslov">
+          Za pitanja, predloge i dodatne informacije o projektu
+          „Istaknuti ratnici kroz istoriju“.
+        </p>
+      </div>
+
+      <div class="mreza-kontakt">
+        <div class="kartica-kontakt">
+          <h3 data-lang="kontakt.naslovForme">Pošaljite poruku</h3>
+
+          <form id="kontakt-forma">
+            <div class="grupa-forme">
+              <label for="ime" data-lang="kontakt.imeLabel">Ime i prezime</label>
+              <input
+                type="text"
+                id="ime"
+                placeholder="Unesite ime i prezime"
+                data-placeholder="kontakt.imePlaceholder"
+                required>
+            </div>
+
+            <div class="grupa-forme">
+              <label for="email" data-lang="kontakt.emailLabel">Email adresa</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="Unesite email adresu"
+                data-placeholder="kontakt.emailPlaceholder"
+                required>
+            </div>
+
+            <div class="grupa-forme">
+              <label for="poruka" data-lang="kontakt.porukaLabel">Poruka</label>
+              <textarea
+                id="poruka"
+                rows="6"
+                placeholder="Napišite poruku..."
+                data-placeholder="kontakt.porukaPlaceholder"
+                required></textarea>
+            </div>
+
+            <button type="submit" data-lang="kontakt.dugme">Pošalji poruku</button>
+          </form>
+        </div>
+
+        <div class="kartica-kontakt">
+          <h3 data-lang="kontakt.lokacijaNaslov">Naša lokacija</h3>
+          <p class="tekst-lokacije" data-lang="kontakt.lokacijaTekst">
+            Možete nas pronaći u Zrenjaninu. Lokacija je prikazana na mapi ispod.
+          </p>
+
+          <div class="omot-mape">
+            <iframe
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2802.4763793548796!2d20.379460576269413!3d45.379560371072685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475adb6c0f745bc3%3A0x4afb4552043a326a!2z0KLQtdGF0L3QuNGH0LrQuCDRhNCw0LrRg9C70YLQtdGCIOKAntCc0LjRhdCw0ZjQu9C-INCf0YPQv9C40L3igJw!5e0!3m2!1ssr!2srs!4v1779661329931!5m2!1ssr!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p data-lang="kontakt.podnozje">&copy; 2026 Istaknuti ratnici kroz istoriju. Sva prava zadržana.</p>
+  </footer>
+
+  <script src="js/validacija.js"></script>
+  <script src="js/tema.js"></script>
+  <script src="js/jezik.js"></script>
+   <script src="js/promena_menija.js"></script>
+   <script src="js/font.js"></script>
+</body>
+</html>

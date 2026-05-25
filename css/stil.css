@@ -1,0 +1,481 @@
+@font-face {
+  font-family: "CinzelCustom";
+  src: url("../fonts/Cinzel-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "CinzelCustom";
+  src: url("../fonts/Cinzel-Bold.ttf");
+  font-weight: 700;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "CinzelCustom", serif;
+  background-image: url("../slike/starisvet.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #2c1b0f;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  transition: background 0.35s ease, color 0.35s ease;
+}
+
+header {
+  background: black;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+header h1 {
+  color: white;
+  font-size: 2em; 
+  margin: 0 0 12px 0;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+h1 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav li {
+  margin: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.25em; 
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: red;
+}
+
+nav a.active {
+  color: #d4af37;
+  font-weight: bold;
+}
+
+.uvod {
+  background: rgba(255, 248, 220, 0.9);
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 1400px;
+  margin: 40px auto;
+  width: calc(100% - 40px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.22);
+}
+
+.uvod h2 {
+  border-bottom: 2px solid #8b6f3d;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 30px;
+}
+
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: auto;
+}
+
+.padajuci-meni {
+  position: relative;
+}
+
+.mega-meni {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #8b6f3d;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  grid-template-columns: repeat(3, 150px);
+  gap: 10px;
+  z-index: 1000;
+}
+
+.mega-meni a {
+  display: block;
+  text-align: center;
+  padding: 8px;
+}
+
+.padajuci-meni:hover .mega-meni {
+  display: grid;
+}
+
+.kartica-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.logo {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  z-index: 1000;
+}
+
+
+.tema-dugme {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: #d4af37;
+  color: #111;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 14px;
+  font-size: 1.15em; 
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  transition: 0.3s ease;
+  z-index: 1200;
+}
+
+.tema-dugme:hover {
+  transform: scale(1.08);
+  background: #f0c75a;
+}
+
+/* dugme za jezik */
+.jezik-dugme {
+  position: absolute;
+  top: 20px;
+  right: 90px;
+  background: #d4af37;
+  color: #111;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 14px;
+  font-size: 1em; 
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  transition: 0.3s ease;
+  z-index: 1200;
+}
+
+.jezik-dugme:hover {
+  transform: scale(1.08);
+  background: #f0c75a;
+}
+
+header,
+footer,
+.uvod,
+.ratnik-blok,
+.kontakt-omot,
+.kontakt-kartica,
+.info-kartica,
+.video-stavka iframe,
+.kartica {
+  transition: background 0.35s ease, color 0.35s ease, border-color 0.35s ease, box-shadow 0.35s ease;
+}
+
+body.tamna-tema {
+  background-image: none;
+  background: #121212;
+  color: #f2e7c9;
+}
+
+body.tamna-tema header {
+  background: #0a0a0a;
+  border-bottom: 2px solid #d4af37;
+}
+
+body.tamna-tema footer {
+  background: #0a0a0a;
+  color: #f2e7c9;
+}
+
+body.tamna-tema .uvod,
+body.tamna-tema .ratnik-blok,
+body.tamna-tema .kontakt-omot {
+  background: rgba(26, 26, 26, 0.95);
+  color: #f2e7c9;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.45);
+}
+
+body.tamna-tema .kontakt-kartica,
+body.tamna-tema .info-kartica,
+body.tamna-tema .kartica {
+  background: linear-gradient(#1d1d1d, #2b2b2b);
+  color: #f2e7c9;
+  border-color: #8b6f3d;
+}
+
+body.tamna-tema .kartica p,
+body.tamna-tema .ratnik-tekst p,
+body.tamna-tema .kontakt-naslov p,
+body.tamna-tema .lokacija-tekst,
+body.tamna-tema .onama-sadrzaj p,
+body.tamna-tema .dokument-blok p,
+body.tamna-tema .video-sekcija p {
+  color: #f2e7c9;
+}
+
+body.tamna-tema .info-linija span {
+  background: #222;
+  color: #f2e7c9;
+  border: 1px solid #8b6f3d;
+}
+
+body.tamna-tema .zanimljivost {
+  background: linear-gradient(#1f1f1f, #2a2a2a);
+  color: #f2e7c9;
+  border-left: 5px solid #d4af37;
+}
+
+body.tamna-tema .grupa-forme input,
+body.tamna-tema .grupa-forme textarea {
+  background: #1d1d1d;
+  color: #f2e7c9;
+  border: 1px solid #8b6f3d;
+}
+
+body.tamna-tema .form-grupa input::placeholder,
+body.tamna-tema .form-grupa textarea::placeholder {
+  color: #cbbf9d;
+}
+
+body.tamna-tema nav a {
+  color: #f5f5f5;
+}
+
+body.tamna-tema nav a:hover {
+  color: #d4af37;
+}
+
+body.tamna-tema nav a.active {
+  color: #d4af37;
+}
+
+body.tamna-tema h1,
+body.tamna-tema h2,
+body.tamna-tema h3,
+body.tamna-tema label {
+  color: #f8e7b0;
+}
+
+body.tamna-tema .tema-dugme,
+body.tamna-tema .jezik-dugme {
+  background: #f5f5f5;
+  color: #111;
+}
+
+body.tamna-tema .mega-meni {
+  background: #1e1e1e;
+}
+
+body.tamna-tema .mega-meni a {
+  color: #f2e7c9;
+}
+
+body.tamna-tema .mega-meni a:hover {
+  color: #d4af37;
+}
+
+body.tamna-tema .dugme-download {
+  background: #d4af37;
+  color: #111;
+}
+
+body.tamna-tema .dugme-download:hover {
+  background: #f0c75a;
+}
+
+body.tamna-tema #kontakt-forma button {
+  background: #d4af37;
+  color: #111;
+}
+
+body.tamna-tema #kontakt-forma button:hover {
+  background: #f0c75a;
+}
+
+body.tamna-tema .video-natpis {
+  background: rgba(0, 0, 0, 0.65);
+  color: #f8e7b0;
+}
+
+body.tamna-tema .font-dugme {
+  background: #f5f5f5;
+  color: #111;
+}
+
+.mobilni-podmeni {
+  display: none;
+}
+
+.font-dugme {
+  position: absolute;
+  top: 20px;
+  background: #d4af37;
+  color: #111;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 14px;
+  font-size: 1em; 
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  transition: 0.3s ease;
+  z-index: 1200;
+}
+
+.font-dugme:hover {
+  transform: scale(1.08);
+  background: #f0c75a;
+}
+
+#povecaj-font {
+  right: 150px;
+}
+
+#smanji-font {
+  right: 205px;
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 18px 12px 16px;
+    min-height: 230px;
+  }
+
+  header h1 {
+    font-size: 1.5em; 
+    line-height: 1.2;
+    margin: 0 70px 16px 70px;
+    padding-top: 38px;
+  }
+
+  .logo {
+    width: 95px;
+    height: 95px;
+    top: 34px;
+    left: 12px;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav li {
+    margin: 5px 0;
+  }
+
+  .uvod {
+    width: calc(100% - 24px);
+    padding: 22px;
+    margin: 20px auto;
+  }
+
+  .tema-dugme {
+    top: 12px;
+    right: 12px;
+    padding: 7px 11px;
+    font-size: 0.9em; 
+  }
+
+  .jezik-dugme {
+    top: 12px;
+    right: 64px;
+    padding: 7px 11px;
+    font-size: 0.8em; 
+  }
+
+  .mega-meni {
+    display: none !important;
+  }
+
+  .padajuci-meni:hover .mega-meni {
+    display: none !important;
+  }
+
+  .mobilni-podmeni {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .mobilni-podmeni li {
+    margin: 0;
+    width: 100%;
+  }
+
+  .mobilni-podmeni a {
+    display: block;
+    padding: 10px 20px;
+    font-size: 1em; 
+    text-align: center;
+    color: #d4af37;
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.05);
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .mobilni-podmeni.prikazi {
+    display: block;
+  }
+  
+  #povecaj-font {
+    top: 12px;
+    right: 116px;
+    padding: 7px 11px;
+    font-size: 0.8em;
+  }
+  
+  #smanji-font {
+    top: 12px;
+    right: 160px;
+    padding: 7px 11px;
+    font-size: 0.8em; 
+  }
+}

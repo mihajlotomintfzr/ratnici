@@ -1,0 +1,217 @@
+.sekcija-kontakt {
+  padding: 40px 20px;
+}
+
+.omot-kontakt {
+  background: rgba(255, 248, 220, 0.92);
+  max-width: 1400px;
+  margin: 40px auto;
+  width: calc(100% - 40px);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.22);
+}
+
+.naslov-kontakt {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.naslov-kontakt h2 {
+  border-bottom: 2px solid #8b6f3d;
+  display: inline-block;
+  padding-bottom: 6px;
+  margin-bottom: 18px;
+}
+
+.naslov-kontakt p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.15em;
+  line-height: 1.7;
+}
+
+.mreza-kontakt {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.kartica-kontakt {
+  background: rgba(255, 255, 255, 0.88);
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.18);
+}
+
+.kartica-kontakt h3 {
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-size: 1.5em;
+}
+
+.grupa-forme {
+  margin-bottom: 20px;
+}
+
+.grupa-forme label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+.grupa-forme input,
+.grupa-forme textarea {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid #8b6f3d;
+  border-radius: 6px;
+  font-family: "CinzelCustom", serif;
+  font-size: 1em;
+  background-color: #fffdf7;
+  color: #2c1b0f;
+}
+
+.grupa-forme input:focus,
+.grupa-forme textarea:focus {
+  outline: none;
+  border-color: #5f4520;
+  box-shadow: 0 0 6px rgba(139, 111, 61, 0.35);
+}
+
+.grupa-forme textarea {
+  resize: vertical;
+  min-height: 140px;
+}
+
+#kontakt-forma button {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 6px;
+  background: #111;
+  color: white;
+  font-family: "CinzelCustom", serif;
+  font-size: 1.05em;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#kontakt-forma button:hover {
+  background: #8b0000;
+}
+
+.tekst-lokacije {
+  font-size: 1.05em;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.omot-mape {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.16);
+}
+
+.omot-mape iframe {
+  width: 100%;
+  height: 320px;
+  border: 0;
+  display: block;
+}
+
+body.tamna-tema .omot-kontakt {
+  background: rgba(26, 26, 26, 0.95);
+  color: #f2e7c9;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.45);
+}
+
+body.tamna-tema .naslov-kontakt h2 {
+  color: #f8e7b0;
+  border-bottom: 2px solid #8b6f3d;
+}
+
+body.tamna-tema .naslov-kontakt p {
+  color: #f2e7c9;
+}
+
+body.tamna-tema .kartica-kontakt {
+  background: linear-gradient(#1d1d1d, #2b2b2b);
+  color: #f2e7c9;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+}
+
+body.tamna-tema .kartica-kontakt h3,
+body.tamna-tema .grupa-forme label {
+  color: #f8e7b0;
+}
+
+body.tamna-tema .tekst-lokacije {
+  color: #f2e7c9;
+}
+
+body.tamna-tema .grupa-forme input,
+body.tamna-tema .grupa-forme textarea {
+  background: #1d1d1d;
+  color: #f2e7c9;
+  border: 1px solid #8b6f3d;
+}
+
+body.tamna-tema .grupa-forme input::placeholder,
+body.tamna-tema .grupa-forme textarea::placeholder {
+  color: #cbbf9d;
+}
+
+body.tamna-tema .grupa-forme input:focus,
+body.tamna-tema .grupa-forme textarea:focus {
+  border-color: #d4af37;
+  box-shadow: 0 0 6px rgba(212, 175, 55, 0.25);
+}
+
+body.tamna-tema #kontakt-forma button {
+  background: #d4af37;
+  color: #111;
+}
+
+body.tamna-tema #kontakt-forma button:hover {
+  background: #f0c75a;
+}
+
+body.tamna-tema .omot-mape {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+}
+
+@media (max-width: 600px) {
+  .omot-kontakt {
+    width: calc(100% - 24px);
+    margin: 20px auto;
+    padding: 22px;
+  }
+  .mreza-kontakt {
+    grid-template-columns: 1fr;
+  }
+
+  .naslov-kontakt p {
+    font-size: 1em;
+  }
+
+  .kartica-kontakt {
+    padding: 22px;
+  }
+
+  .kartica-kontakt h3 {
+    font-size: 1.25em;
+  }
+
+  .grupa-forme input,
+  .grupa-forme textarea,
+  #kontakt-forma button {
+    font-size: 0.95em;
+  }
+
+  .omot-mape iframe {
+    height: 260px;
+  }
+}
