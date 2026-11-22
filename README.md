@@ -1,2 +1,2 @@
 # ratnici
-Prfojekat iz veb dizajna
+Responzivna web prezentacija o istaknutim ratnicima kroz istoriju
